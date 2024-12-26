@@ -6,7 +6,7 @@ body{
    
     height: 10%;
     width: 100%;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: rgb(152, 75, 224);
     color: white;
 }
@@ -19,4 +19,7 @@ a{
     color:white;
     text-decoration: none;
     margin-right: 80px;
+}
+a:hover{
+    color: rgb(245, 153, 167);
 }
