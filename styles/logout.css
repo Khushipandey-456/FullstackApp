@@ -1,7 +1,8 @@
 #logout,
 #submit,
 #add_todo_btn,
-.todobtns,#get_stats {
+.todobtns,
+#get_stats {
   padding: 5px;
   width: 70px;
   background-color: blueviolet;
@@ -19,8 +20,9 @@
   transition: background-color 1s ease;
 }
 
-#user-name,label,
-h2{
+#user-name,
+label,
+h2 {
   color: blueviolet;
   font-size: 1.2rem;
   text-align: center;

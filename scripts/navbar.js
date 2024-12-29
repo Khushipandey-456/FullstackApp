@@ -1,5 +1,5 @@
-let navbar=()=>{
-    let card =`<div id= "nav-container">
+let navbar = () => {
+  let card = `<div id= "nav-container">
     <a id="logo" href="">My Personal App</a>
      <div id="navlinks>
     <a href="#"></a>
@@ -9,7 +9,7 @@ let navbar=()=>{
       <a href="expences.html">Expences</a>
       </div>
     </div>`
-    document.getElementById("nav").innerHTML=card;
+  document.getElementById("nav").innerHTML = card;
 
 };
 navbar()

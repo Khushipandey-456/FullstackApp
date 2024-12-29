@@ -1,4 +1,4 @@
-function getStats (username,data) {
+function getStats(username, data) {
 
     let completedTasks = data.filter((el) => el.status == true).length;
     let pendingTasks = data.filter((el) => el.status == false).length;
@@ -33,6 +33,6 @@ function getStats (username,data) {
     </div>`;
     addTodoDiv.style.display = "flex";
     document.getElementById("modal_content").innerHTML = card;
-  }
+}
 
-  export {getStats}
+export { getStats }

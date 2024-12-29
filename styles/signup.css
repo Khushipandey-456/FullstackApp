@@ -1,4 +1,4 @@
-#form{
+#form {
     width: 30%;
     height: 350px;
     margin: 2rem auto;
@@ -11,38 +11,41 @@
     background-color: rgb(228, 200, 253);
     padding: 20px;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
 
 }
-h3{
+
+h3 {
     font-size: 2rem;
 }
-#form input{
+
+#form input {
     height: 20px;
     width: 80%;
 }
 
-select{
+select {
     height: 20px;
     width: 80%;
     background-color: rgb(228, 200, 253);
-    
+
 }
-#submit{
+
+#submit {
     width: 50px;
     background-color: blueviolet;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     margin-bottom: 10px;
-    
+
 }
 
-#submit:hover{
-    background-color:rgb(165, 80, 245) ;
-  transition:  background-color 1s ease;
+#submit:hover {
+    background-color: rgb(165, 80, 245);
+    transition: background-color 1s ease;
 }
