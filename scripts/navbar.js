@@ -1,6 +1,6 @@
 let navbar = () => {
   let card = `<div id= "nav-container">
-    <a id="logo" href="">My Personal App</a>
+    <a id="logo" href="index.html">My Personal App</a>
      <div id="navlinks>
     <a href="#"></a>
      <a href="signup.html">SignUp</a>
